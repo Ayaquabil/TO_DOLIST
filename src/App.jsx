@@ -11,12 +11,12 @@ export default function App() { // Nom de composant en PascalCase
         
         <Route 
           path="/aesthetic" 
-          element={<AestheticTodo backgroundImage="../public/assets/aesthetic.png" />} 
+          element={<AestheticTodo backgroundImage="/public/assets/aesthetic.png" />} 
         />
         
         <Route 
           path="/boost" 
-          element={<BoostTodo backgroundImage="../public/assets/boost.png" />} 
+          element={<BoostTodo backgroundImage="/public/assets/boost.png" />} 
         />
       </Routes>
     </Router>

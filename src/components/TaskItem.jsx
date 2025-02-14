@@ -21,7 +21,7 @@ export default function TaskItem({ task, mode, onComplete, onDelete }) {
         </div>
         <button 
           onClick={() => onDelete(task.id)}
-          className="text-red-300 hover:text-red-400 px-2"
+          className="text-red-300 hover:text-red-600 px-2"
           aria-label="Delete task"
         >
           ✕

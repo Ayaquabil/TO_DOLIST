@@ -10,13 +10,13 @@ export default function ModeSelection() {
       <div className="flex flex-wrap gap-8 justify-center max-w-4xl p-8 rounded-2xl bg-slate-900/50 backdrop-blur-sm shadow-2xl">
       <ModeButton
     to="/aesthetic"
-  backgroundImage="/public/assets/aesthetic.png"// Chemin vers votre image
+  backgroundImage="/assets/aesthetic.png"// Chemin vers votre image
   emoji="✨🌸"
   label="Aesthetic Mode"
 />
         <ModeButton
           to="/boost"
-          backgroundImage="/public/assets/boost.png"
+          backgroundImage="/assets/boost.png"
           emoji="⚡🚀"
           label="Boost Mode"
            className="w-64 h-64"

@@ -13,6 +13,7 @@ export default function ModeSelection() {
   backgroundImage="/assets/aesthetic.png"// Chemin vers votre image
   emoji="✨🌸"
   label="Aesthetic Mode"
+        className="w-64 h-64"
 />
         <ModeButton
           to="/boost"
